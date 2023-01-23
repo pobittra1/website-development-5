@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>just-some-design-with-animate</title>
+
+
+    <!-- boostrap link start here -->
+    <link rel="stylesheet" href="./boostrap links/css/bootstrap.min.css">
+    <!-- boostrap link end here -->
+
+    <!-- own style link here -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- own style link here -->
+
+    <!-- google fonts links start here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap" rel="stylesheet">
+    <!-- google fonts links end here -->
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+
+    <!-- animation code -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animation code -->
+
+</head>
+<body>
+     <header>
+
+
+
+        <!-- navbar section start here -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid px-4 border-bottom">
+              <a class="navbar-brand fw-bold fs-1" href="#">Fashion<span class="text-primary">-Hero</span></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-primary" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Services
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#services">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Our Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- navbar section start here -->
+
+
+        <!-- carousel section start here -->
+        <section class="carousel mt-5 mt-md-0" data-aos="fade-left" data-aos-offset="200" id="home">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/carousel/img1.JPG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                      <h3 class="text-capitalize">we are here for Fashion</h3>
+                      <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/carousel/img2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                    <h3 class="text-capitalize">we are here for Fashion</h3>
+                      <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/carousel/img3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block">
+                    <h3 class="text-capitalize">we are here for Fashion</h3>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="black" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+                      </svg>
+                  </span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="" aria-hidden="true">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="black" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+                      </svg>
+                  </span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <!-- carousel section end here -->
+
+     </header>
+
+
+
+
+
+     <main>
+        <!-- about section start here -->
+        <section class="about container my-md-5" id="about">
+            <h1 class="fw-bold text-center pt-5" data-aos="fade-up" data-aos-offset="400">About</h1>
+            <hr class="w-25 border-2 m-auto mb-2 mb-md-5 pb-2" data-aos="fade-right" data-aos-offset="400">
+            <div class="row">
+                <div class="col-12 col-md-6" data-aos="fade-right" data-aos-offset="500">
+                    <h1 class="text-capitalize">what do you <span class="text-primary">want to know?</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi suscipit veniam, voluptas voluptatem porro, inventore reprehenderit iusto at voluptate eum beatae sunt fuga earum repellat officia quaerat expedita? Impedit, officia?</p>
+                    <div class="mt-4">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Accordion Item #1
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Accordion Item #2
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Accordion Item #3
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-4 mt-md-0" data-aos="fade-left" data-aos-offset="500">
+                    <img src="./images/question/img1.png" alt="" class="img-fluid rounded">
+                </div>
+            </div>
+        </section>
+        <!-- about section end here -->
+
+
+
+        <!-- services section start here -->
+        <section class="services contaienr my-5" id="services">
+            <h1 class="fw-bold text-center pt-5" data-aos="fade-up" data-aos-offset="400">Our Services</h1>
+            <hr class="w-25 border-2 m-auto mb-5 pb-2" data-aos="fade-left" data-aos-offset="400" >
+            <div class="row container m-auto" data-aos="fade-left" data-aos-offset="500">
+                <div class="col-12 col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                          <div class="bg-primary text-white d-inline p-2 rounded">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-braces" viewBox="0 0 16 16">
+                                <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+                              </svg>
+                          </div>
+                          <h6 class="card-subtitle mb-2 text-muted my-3">Fashion development</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button class="btn bg-primary text-white">Shop now!</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4 my-4 my-md-0">
+                    <div class="card bg-primary shadow">
+                        <div class="card-body">
+                          <div class="bg-white text-black d-inline p-2 rounded">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                              </svg>
+                          </div>
+                          <h6 class="card-subtitle mb-2 text-white my-3">Fashion development</h6>
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button class="btn bg-white text-black">Shop now!</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="bg-primary text-white d-inline p-2 rounded">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-braces" viewBox="0 0 16 16">
+                                    <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+                                  </svg>
+                              </div>
+                          <h6 class="card-subtitle mb-2 text-muted my-3">CFashion development</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button class="btn bg-primary text-white">Shop now!</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="row container m-auto mt-4" data-aos="fade-right" data-aos-offset="500">
+                <div class="col-12 col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                          <div class="bg-primary text-white d-inline p-2 rounded">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-braces" viewBox="0 0 16 16">
+                                <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+                              </svg>
+                          </div>
+                          <h6 class="card-subtitle mb-2 text-muted my-3">Fashion development</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button class="btn bg-primary text-white">Shop now!</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4 my-4 my-md-0">
+                    <div class="card bg-primary shadow">
+                        <div class="card-body">
+                          <div class="bg-white text-black d-inline p-2 rounded">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-code-slash" viewBox="0 0 16 16">
+                                <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                              </svg>
+                          </div>
+                          <h6 class="card-subtitle mb-2 my-3 text-white">Fashion development</h6>
+                          <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button class="btn bg-white text-black">Shop now!</button>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="bg-primary text-white d-inline p-2 rounded">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-braces" viewBox="0 0 16 16">
+                                    <path d="M2.114 8.063V7.9c1.005-.102 1.497-.615 1.497-1.6V4.503c0-1.094.39-1.538 1.354-1.538h.273V2h-.376C3.25 2 2.49 2.759 2.49 4.352v1.524c0 1.094-.376 1.456-1.49 1.456v1.299c1.114 0 1.49.362 1.49 1.456v1.524c0 1.593.759 2.352 2.372 2.352h.376v-.964h-.273c-.964 0-1.354-.444-1.354-1.538V9.663c0-.984-.492-1.497-1.497-1.6zM13.886 7.9v.163c-1.005.103-1.497.616-1.497 1.6v1.798c0 1.094-.39 1.538-1.354 1.538h-.273v.964h.376c1.613 0 2.372-.759 2.372-2.352v-1.524c0-1.094.376-1.456 1.49-1.456V7.332c-1.114 0-1.49-.362-1.49-1.456V4.352C13.51 2.759 12.75 2 11.138 2h-.376v.964h.273c.964 0 1.354.444 1.354 1.538V6.3c0 .984.492 1.497 1.497 1.6z"/>
+                                  </svg>
+                              </div>
+                          <h6 class="card-subtitle mb-2 text-muted my-3">CFashion development</h6>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <button class="btn bg-primary text-white">Shop now!</button>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- services section end here -->
+
+
+
+        <!-- team section start here -->
+        <section class="team contaienr my-5" id="team">
+            <h1 class="fw-bold text-center pt-5" data-aos="fade-up" data-aos-offset="300">Our Team</h1>
+            <hr class="w-25 border-2 m-auto mb-5 pb-2" data-aos="fade-left" data-aos-offset="300">
+            <div class="row container m-auto">
+                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-offset="300">
+                    <div class="card text-center">
+                        <img src="./images/card/img1.jpg" alt="" class="img-fluid border-primary border border-2 rounded-circle p-2 h-100 w-75 m-auto mt-3">
+                        <div class="card-body">
+                          <h3 class="card-title">Pobittra here</h3>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Explore Them</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4 my-3 my-md-0" data-aos="fade-up" data-aos-offset="400">
+                    <div class="card text-center">
+                        <img src="./images/card/img2.png" alt="" class="img-fluid border-primary border-2 rounded-circle p-2 h-100 border w-75 m-auto mt-3">
+                        <div class="card-body">
+                          <h3 class="card-title">Foysal here</h3>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Explore Them</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-offset="500">
+                    <div class="card text-center">
+                        <img src="./images/card/img3.jpg" alt="" class="img-fluid border-primary border-2 rounded-circle p-2 h-100 border w-75 m-auto mt-3">
+                        <div class="card-body">
+                          <h3 class="card-title">Binty here</h3>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <a href="#" class="btn btn-outline-primary">Explore Them</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <!-- team section end here -->
+
+
+
+        <!-- contact section start here -->
+        <section class="contact container my-5" id="contact">
+            <h1 class="fw-bold text-center pt-5 text-capitalize" data-aos="fade-up" data-aos-offset="300">feel free to connect</h1>
+            <hr class="w-50 border-2 m-auto mb-5 pb-2" data-aos="fade-right" data-aos-offset="400">
+            <div class="row m-auto gx-5">
+                <div class="col-12 col-md-6" data-aos="fade-up-right" data-aos-offset="300">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="inputEmail4">
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label">Password</label>
+                          <input type="password" class="form-control" id="inputPassword4">
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputAddress2" class="form-label">Address 2</label>
+                            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                          </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">City</label>
+                          <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputState" class="form-label">State</label>
+                          <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>...</option>
+                          </select>
+                        </div>
+                        <div class="col-md-2">
+                          <label for="inputZip" class="form-label">Zip</label>
+                          <input type="text" class="form-control" id="inputZip">
+                        </div>
+                        <div class="col-12">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Check me out
+                            </label>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-primary">Sign in</button>
+                        </div>
+                      </form>
+                </div>
+                <div class="col-12 col-md-6 text-end mt-3 mt-md-0 mb-5" data-aos="fade-up-left" data-aos-offset="200">
+                    <img src="./images/contact/img1.jpg" alt="" class="img-fluid w-100 rounded">
+                </div>
+            </div>
+        </section>
+        <!-- contact section end here -->
+     </main>
+
+
+
+     <!-- footer section start here -->
+     <footer class="container-fluid bg-primary text-white text-center" id="footer">
+        <h1 class="py-3">&copy; develop by pobittra</h1>
+     </footer>
+    <!-- footer section end here -->
+
+    
+
+
+    <!-- boostrap js link start here -->
+    <script src="./boostrap links/js/bootstrap.min.js"></script>
+    <!-- boostrap js link end here -->
+
+
+    <!-- animation code -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <!-- animation code -->
+</body>
+</html>
